@@ -1,11 +1,138 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
-    <title>Portfólio - JONATAS FILIPE CARVALHO FERREIRA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jonatas Filipe | Desenvolvedor de Software Multiplataforma</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <h1>Bem vindo ao Portfólio de JONATAS FILIPE CARVALHO FERREIRA</h1>
+    <header>
+        <div class="container-header">
+            <img src="assets/perfil.png" class="profile-pic">
+            <div class="header-content">
+                <h1>Jonatas Filipe</h1>
+                <p class="subtitle">Desenvolvedor de Software Multiplataforma </p>
+                <p class="about">Entusiasta de tecnologia e inovação.</p>
+                <p class="about">Sempre aprendendo e buscando criar soluções práticas e criativas.</p>
+                <p class="about">Gosto de colaborar em projetos que geram impacto positivo para o mundo.</p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="projetos">
+            <h2>Projetos</h2>
+            <div class="tabs">
+                <button class="tab-btn active" onclick="showTab('fatec')">FATEC</button>
+                <button class="tab-btn" onclick="showTab('pessoais')">Pessoais</button>
+            </div>
+
+            <div id="tab-fatec" class="tab-content active">
+                <h3>Projetos FATEC</h3>
+                <div class="projetos-grid">
+                    <div class="projeto-card-mini">
+                        <span class="projeto-nome">Projeto Integrador I</span>
+                        <span class="projeto-tag">1º Semestre</span>
+                        <span class="projeto-desc">Projeto destinado para ensinar a metodologia SCRUM (Agile)</span>
+                        <a href="https://cguilhermec.github.io/WebWizardsPro/" target="_blank"
+                            class="projeto-link">GitHub</a>
+                    </div>
+
+                    <div class="projeto-card-mini">
+                        <span class="projeto-nome">Projeto Integrador II</span>
+                        <span class="projeto-tag">2º Semestre</span>
+                        <span class="projeto-desc">Desenvolvimento de uma plataforma web que simplifique o processo de
+                            mapeamento de uso e ocupação da terra para empresas do setor de geotecnologias.</span>
+                        <a href="https://github.com/filipejonatas/WebWizardsPro-Visona" target="_blank"
+                            class="projeto-link">GitHub</a>
+                    </div>
+
+                    <div class="projeto-card-mini">
+                        <span class="projeto-nome">Projeto Integrador III</span>
+                        <span class="projeto-tag">3º Semestre</span>
+                        <span class="projeto-desc">Projeto com objetivo monitorar a ingestão diária de calorias e
+                            nutrientes,oferecendo suporte para o controle da alimentação e a manutenção de uma saúde
+                            equilibrada.</span>
+                        <a href="https://github.com/InnoCodeSolutions/ABP_3" target="_blank"
+                            class="projeto-link">GitHub</a>
+                    </div>
+                    <div class="projeto-card-mini">
+                        <span class="projeto-nome">Projeto Integrador IV</span>
+                        <span class="projeto-tag">4º Semestre</span>
+                        <span class="projeto-desc">Este projeto tem como objetivo desenvolver uma solução para
+                            localização
+                            de derivadores, através de utlização em conjunto de IoT e mobile.
+                        </span>
+                        <a href="https://github.com/InnoCodeSolutions/ABP_4DSM" target="_blank"
+                            class="projeto-link">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="tab-pessoais" class="tab-content">
+                <h3>Projetos Pessoais</h3>
+                <div class="projetos-grid">
+                    <div class="projeto-card-mini">
+                        <span class="projeto-nome">Bomba Iot</span>
+                        <span class="projeto-tag">Pessoal</span>
+                        <span class="projeto-desc">Projeto envolvendo recursos IoT para acionamento de uma bomba, em
+                            conjunto com um questionário online.
+                        </span>
+                        <a href="https://github.com/filipejonatas/4semestreDSM/tree/main/Iot_bomba" target="_blank"
+                            class="projeto-link">GitHub</a>
+                    </div>
+
+                    <div class="projeto-card-mini">
+                        <span class="projeto-nome">Conversor PDF exames</span>
+                        <span class="projeto-tag">Pessoal</span>
+                        <span class="projeto-desc"> Aplicação para converter exames de sangue em PDF para um JSON,
+                            através de leitura automatizada.
+                        </span>
+                        <a href="https://github.com/filipejonatas/convertpdf2json" target="_blank"
+                            class="projeto-link">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="social">
+            <a href="https://github.com/filipejonatas" target="_blank" class="icon-link">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path
+                        d="M12 2C6.48 2 2 6.58 2 12.26c0 4.49 2.87 8.3 6.84 9.64.5.09.68-.22.68-.48 0-.24-.01-.87-.01-1.7-2.78.62-3.37-1.36-3.37-1.36-.45-1.18-1.1-1.5-1.1-1.5-.9-.63.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.7 0 0 .84-.28 2.75 1.05A9.38 9.38 0 0 1 12 6.84c.85.004 1.71.12 2.51.35 1.91-1.33 2.75-1.05 2.75-1.05.55 1.4.2 2.44.1 2.7.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.81-4.57 5.07.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.58.69.48A10.01 10.01 0 0 0 22 12.26C22 6.58 17.52 2 12 2z" />
+                </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/jonatas-filipe-aa4534165/" target="_blank" class="icon-link">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="3" width="20" height="18" rx="2.18" ry="2.18" />
+                    <path d="M16 8a6 6 0 0 1 6 6v5h-4v-5a2 2 0 0 0-4 0v5h-4v-5a6 6 0 0 1 6-6z" />
+                    <circle cx="6" cy="8" r="2" />
+                </svg>
+            </a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Jonatas Filipe</p>
+    </footer>
+
+    <script>
+        function showTab(tab) {
+            document.querySelectorAll('.tab-content').forEach(function (el) {
+                el.classList.remove('active');
+            });
+            document.querySelectorAll('.tab-btn').forEach(function (el) {
+                el.classList.remove('active');
+            });
+            document.getElementById('tab-' + tab).classList.add('active');
+            document.querySelector('.tab-btn[onclick*="' + tab + '"]').classList.add('active');
+        }
+    </script>
 </body>
+
 </html>

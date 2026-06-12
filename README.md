@@ -18,8 +18,6 @@
 
 6DSM - [Vídeo](LINK_VIDEO_6DSM)
 
-> Substituir `LINK_VIDEO_6DSM` pelo vídeo oficial de apresentação antes da entrega final.
-
 ---
 
 ## Sobre

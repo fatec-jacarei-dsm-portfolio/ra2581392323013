@@ -16,7 +16,7 @@
 
 **Vídeos de Apresentação**
 
-6DSM - [Vídeo](LINK_VIDEO_6DSM)
+6DSM - [Vídeo](https://youtu.be/kCqDs0vv-tU)
 
 ---
 
@@ -86,7 +86,7 @@ Solução para localização de derivadores com uso combinado de IoT, aplicaçã
 
 Plataforma inteligente de apoio acadêmico com React Native, Node.js, TypeScript e modelos de Machine Learning para prever desempenho e risco de evasão.
 
-- **Contribuição pessoal:** atuação como Scrum Master, apoiando organização da equipe, cerimônias e entregas.
+- **Contribuição pessoal:** atuação como Scrum Master, desenvolvimento da API que recebia dados dos modelos de Machine Learning, criação de telas no frontend mobile e apoio à infraestrutura em cloud.
 - **Tecnologias:** React Native, Node.js, TypeScript, Python, Machine Learning.
 - [GitHub](https://github.com/innocode-solutions/abp_5dsm)
 
@@ -94,7 +94,7 @@ Plataforma inteligente de apoio acadêmico com React Native, Node.js, TypeScript
 
 Chatbot para WhatsApp com Node.js, TypeScript, RAG e PLN, orientando consumidores a partir de fluxos do PROCON e base do Código de Defesa do Consumidor.
 
-- **Contribuição pessoal:** participação no desenvolvimento do bot, fluxos de conversa e integração com base de conhecimento.
+- **Contribuição pessoal:** desenvolvimento da API, integração com o chatbot, criação de fluxos de conversa e conexão com a base de conhecimento.
 - **Tecnologias:** Node.js, TypeScript, WhatsApp, RAG, PLN.
 - [GitHub](https://github.com/innocode-solutions/abp_6dsm)
 
